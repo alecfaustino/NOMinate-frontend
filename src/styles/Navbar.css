@@ -1,0 +1,56 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  margin: 0;
+  z-index: 100;
+  background-color: #1C1C1C;
+}
+
+.slogan {
+  /* this margin here is because the navbar has some -32 positiom */
+  margin-right: 1rem;
+  display: flex;
+}
+
+.navbar h1, h2 {
+  color: #ad8f7e;
+}
+
+.hamburger {
+  display: none; 
+  margin-right: 1rem;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: #ad8f7e;
+  cursor: pointer;
+}
+
+/* Show hamburger only on mobile */
+@media (max-width: 430px) {
+  .slogan {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .hamburger {
+    display: block;
+  }
+
+  .slogan {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  }
+
+  .brand {
+    font-size: 1.5rem;
+  }
+
+}
+

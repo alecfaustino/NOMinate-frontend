@@ -1,0 +1,70 @@
+h3, h4 {
+  color: #ad8f7e;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+label {
+  color: wheat;
+  cursor: pointer;
+}
+label:hover {
+  color: #ad8f7e;
+}
+
+select {
+  background: #1C1C1C;
+  color: wheat;
+  border: 1px solid #333;
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+}
+select:focus {
+  outline: none;
+  border-color: #ad8f7e;
+  box-shadow: 0 0 4px #FFC10755;
+}
+
+input[type="checkbox"] {
+  accent-color: #ad8f7e; 
+}
+
+input[type="checkbox"]:checked {
+  background-color: #ad8f7e;
+  border-color: #ad8f7e;
+}
+
+
+.macronutrient-slider {
+  width: 250px;
+  padding: 10px;
+  color: #ad8f7e;
+}
+
+.macronutrient-values {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4px;
+  font-size: 0.9rem;
+}
+
+/* filter button sticky to the bottom of the column.  */
+.filters-actions {
+  position: relative;
+  bottom: 10px;
+  text-align: center;
+  z-index: 10;
+  background-color: inherit;
+}
+
+.filters-actions button {
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #ad8f7e;
+  color: black;
+  border-radius: 6px;
+}
+
+

@@ -1,0 +1,58 @@
+.details-image {
+  width: 90%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  object-fit: contain;
+  display: flex;
+  justify-self: center;
+}
+
+.stats {
+  color: wheat;
+}
+
+.test {
+  color: wheat;
+}
+
+.nutrition, .instructions {
+  margin: 16px;
+  color: wheat;
+}
+
+.right-column p {
+  color: wheat;
+}
+
+.nutrition ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.nutrition li {
+  margin-bottom: 4px;
+}
+
+.instructions ol {
+  padding-left: 20px;
+  color: wheat;
+}
+
+.instructions h5 {
+  margin: 8px 0 4px;
+  font-size: 1.1rem;
+  color: wheat;
+}
+
+/* if there is no selected recipe */
+.right-column.placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-style: italic;
+  color: white;
+  text-align: center;
+}
+
