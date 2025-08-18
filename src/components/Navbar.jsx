@@ -4,7 +4,7 @@ const Navbar = ({ mobileFiltersVisible, setMobileFiltersVisible }) => {
   return (
     <nav className="navbar">
       <h1 className="brand">NOMinate</h1>
-      <h2 className="slogan">Dinner ideas, just a scroll away.</h2>
+      <h2 className="slogan">Meal ideas, just a scroll away.</h2>
 
       {/* Hamburger for mobile */}
       <button
